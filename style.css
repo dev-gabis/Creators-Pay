@@ -1,0 +1,199 @@
+body {
+  background-color: #E5E5E5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url("./fonts/SF-Pro-Display-Bold.OTF"); 
+  }
+
+a {
+  color: #A0A4B1;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+
+.fields P {
+  font-size: 14px;
+
+}
+
+
+.button:hover {
+  background: #7553E2;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 12px;
+  color: aliceblue !important;
+}
+
+.button{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #7553E2;
+  margin-left: 20px;
+  background: #E5E5E5;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 12px;
+  color: #7553E2 !important;
+}
+
+
+
+.fields{
+  border-radius: 20px;
+  width: 700px;
+  padding: 30px;
+  background-color: white !important;
+}
+
+#navbar{
+  align-items: center;
+}
+
+.button-close{
+  margin-left: 100px;
+}
+
+.faixa ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.navbar .links {
+  text-decoration: none;
+  color: #000000;
+}
+
+.title img{
+  width: 50px;
+}
+
+.card{
+  width: 600px
+}
+
+
+.options .number {
+  color: #FFFFFF;
+  font-weight: 700;
+  background-color: #202020;
+  padding: 8px 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.number-carousel {
+  color: #FFFFFF;
+  font-weight: 700;
+  background-color: #202020;
+  padding: 8px 13px;
+  border-radius: 50%;
+  text-align: center !important;
+}
+
+.options .link {
+  font-weight: 500;
+  font-size: 17px;
+  color: #E2D5FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.options .link a {
+  font-weight: 500;
+  font-size: 17px;
+  color: #E2D5FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.modal-dialog {
+  max-width: 700px !important;
+
+}
+
+.carousel-indicators [data-bs-target] {
+  display: none;
+}
+
+.content h1 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 16px;
+  padding-bottom: 90px
+}
+
+.carousel-inner h5 {
+  text-align: center !important;
+}
+
+.modal-content{
+  width: 600px;
+}
+
+.modal-content h5 {
+  color: #000000 ;
+  text-align: center;
+  font-size: 18px;
+}
+
+.modal-content h2, p {
+  text-align: center;
+
+}
+
+.modal-content img{
+padding-left: 250px;
+}
+
+.list {
+  margin-top: -20px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 29px;
+  color: #E2D5FF;
+}
+
+  .btn-close {
+  text-align: right !important;
+  box-sizing: content-box;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #000;
+  border-radius: 0.25rem;
+}
+
+.btn-close {
+  filter: contrast(0.0);
+  opacity: 10;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
